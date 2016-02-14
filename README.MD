@@ -1,8 +1,13 @@
 # Crave's Android interview task
 
+**What am I building?**
+The final result of this task is to have an Activity with a vertical ListView.
+Each row in the list will display an horizontal scrollable view of images.
+Vertical rows and horizontal images count are dynamic (0..N)
+
 **In this project:**
-  - MainActivity.java - An Activity with a simple list view and custom list adapter (inherits from BaseAdapter)
-  - MainListAdapter.java - List adapter for the Activity's ListView widget
+  - MainActivity.java - An Activity with a simple list view widget
+  - MainListAdapter.java - List adapter for the Activity's ListView widget (inherits from BaseAdapter)
   - activity_main.xml - The activity layout (single ListView widget)
 
 **Instructions:**
@@ -20,7 +25,7 @@
 
 **What to implement:**
 
-The end result of this task should be a vertical ListView (the one already provided), where each of it's rows can be horizontally
+The end result of this task should be a vertical ListView (the one already provided), where each of it's rows is horizontally
 scrollable.
 The entire list structure defined in List object received by the adapter's constructor.
 
