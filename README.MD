@@ -1,6 +1,7 @@
 # Crave's Android interview task
 
 **What am I building?**
+
 The final result of this task is to have an Activity with a vertical ListView.
 Each row in the list will display an horizontal scrollable view of images.
 Vertical rows and horizontal images count are dynamic (0..N)
